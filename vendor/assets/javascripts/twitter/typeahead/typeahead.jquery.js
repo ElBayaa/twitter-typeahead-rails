@@ -449,7 +449,7 @@
                 this.$input.blur();
             },
             getQuery: function getQuery() {
-                return this.query.substr(this.query.lastIndexOf("@")+1)
+                return this.query.substr(this.query.lastIndexOf("@")+1);
             },
             setQuery: function setQuery(query) {
                 this.query = query;
